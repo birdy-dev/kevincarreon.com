@@ -24,14 +24,14 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
             of Medical Sciences and subsequently his Doctor of Dental Surgery
             degree. Dr. Kevin believes in the importance of patient education,
             informed decision making, and a gentle touch when practicing
-            dentistry. In his spare time, Dr. Kevin loves to dance, DJ and play
+            dentistry. In his spare time, Dr. Kevin loves to dance, DJ, and play
             video games.
           </p>
         </div>
       </section>
 
       <section class="max-w-4xl py-24 -mx-4 sm:mx-auto">
-        <div class="rounded-2xl sm:p-8 sm:pt-0 bg-slate-50 bg-opacity-60">
+        <div class="rounded-2xl sm:p-8 sm:pt-0 bg-gradient-to-r from-cyan-200 to-blue-200">
           <div class="flex flex-col sm:flex-row gap-8 justify-between items-center w-full py-12">
             <h2 class="text-center sm:text-right text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl max-w-lg">
               Accepting new patients<br />at Swish Dental
@@ -74,12 +74,15 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
             width="250"
           />
           <div class="space-y-4 sm:space-y-8">
+            <h3 class="text-sm text-gray-500 tracking-widest">Degrees</h3>
             <div>
               Bachelor of Medical Science at the University of Alberta in 2021
             </div>
             <div>
               Doctor of Dental Surgery at the University of Alberta in 2023
             </div>
+            <hr />
+            <h3 class="text-sm text-gray-500 tracking-widest">Electives</h3>
             <div>
               Advanced Oral Radiology Elective at the University of Alberta in
               2023
