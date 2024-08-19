@@ -1,6 +1,7 @@
 {
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.2.4/"
+    "lume/": "https://deno.land/x/lume@v2.2.4/",
+    "tailwindcss-animated": "npm:tailwindcss-animated@^1.1.2"
   },
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",

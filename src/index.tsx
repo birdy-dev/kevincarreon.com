@@ -3,22 +3,26 @@ export const layout = "layout.html";
 export default (data: Lume.Data, helpers: Lume.Helpers) => (
   <>
     <div class="mx-4">
-      <section class="md:flex max-w-4xl gap-8 py-24 mx-auto">
+      <section class="md:flex max-w-4xl gap-8 py-32 mx-auto">
         <div class="">
           <div class="rounded-2xl max-w-sm">
             <img
-              class="aspect-[1/1] w-full rounded-2xl object-cover"
+              class="aspect-[1/1] w-full rounded-2xl object-cover animate-fade-up"
               src="/imgs/kevin_carreon.webp"
               alt="Dr. Kevin Carreon"
             />
           </div>
         </div>
         <div class="max-w-md">
-          <h1 class="mt-6 text-2xl tracking-tight font-semibold leading-8 text-gray-900">
-            Dr. Kevin Carreon
-          </h1>
-          <h2 class="leading-7 text-gray-500">BMSc D.D.S.</h2>
-          <p class="mt-4 leading-7 text-gray-600">
+          <div class="animate-fade-up animate-delay-200">
+            <h1 class="mt-6 text-2xl tracking-tight font-semibold leading-8 text-gray-900">
+              Dr. Kevin Carreon
+            </h1>
+            <h2 class="leading-7 text-gray-500">
+              BMSc D.D.S.
+            </h2>
+          </div>
+          <p class="mt-4 leading-7 text-gray-600 animate-fade-up animate-delay-500">
             Dr. Kevin was born and raised in Edmonton, AB. He went on to pursue
             his education at the University of Alberta completing his Bachelor's
             of Medical Sciences and subsequently his Doctor of Dental Surgery
@@ -30,8 +34,8 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
         </div>
       </section>
 
-      <section class="max-w-4xl py-24 -mx-4 sm:mx-auto">
-        <div class="rounded-2xl sm:p-8 sm:pt-0 bg-gradient-to-r from-cyan-200 to-blue-200">
+      <section class="max-w-4xl py-32 -mx-4 sm:mx-auto">
+        <div class="rounded-2xl sm:p-8 sm:pt-0 bg-gradient-to-br from-cyan-100 to-blue-300">
           <div class="flex flex-col sm:flex-row gap-8 justify-between items-center w-full py-12">
             <h2 class="text-center sm:text-right text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl max-w-lg">
               Accepting new patients<br />at Swish Dental
@@ -39,7 +43,7 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
 
             <div>
               <a
-                class="block text-nowrap px-4 py-2 mx-auto sm:mx-0 w-fit rounded-full bg-blue-700 hover:bg-blue-800 text-sm font-semibold text-white transition ease-in-out"
+                class="block text-nowrap px-5 py-3 mx-auto sm:mx-0 w-fit rounded-full bg-neutral-800 hover:bg-neutral-700 text-sm font-semibold text-white transition ease-in-out animate-fade-up"
                 href="http://www.swishdental.ca/appointment-request"
               >
                 Book an appointment
