@@ -1,15 +1,18 @@
 {
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.2.4/",
+    "lume/": "https://deno.land/x/lume@v2.5.0/",
     "tailwindcss-animated": "npm:tailwindcss-animated@^1.1.2"
   },
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
     "build": "deno task lume",
-    "dev": "deno task lume -s"
+    "dev": "deno task lume -s",
+    "serve": "deno task lume -s"
   },
   "compilerOptions": {
-    "types": ["lume/types.ts"],
+    "types": [
+      "lume/types.ts"
+    ],
     "jsx": "react-jsx",
     "jsxImportSource": "npm:preact"
   }
