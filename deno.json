@@ -6,8 +6,7 @@
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
     "build": "deno task lume",
-    "dev": "deno task lume -s",
-    "serve": "deno task lume -s"
+    "dev": "deno task lume -s"
   },
   "compilerOptions": {
     "types": [

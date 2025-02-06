@@ -35,26 +35,30 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
       </section>
 
       <section class="max-w-4xl py-32 -mx-4 sm:mx-auto">
-        <div class="rounded-2xl sm:p-8 sm:pt-0 bg-gradient-to-br from-cyan-100 to-blue-300">
+        <div class="rounded-2xl sm:p-8 sm:pt-0 bg-gradient-to-br p-4 from-cyan-100 to-blue-300">
           <div class="flex flex-col sm:flex-row gap-8 justify-between items-center w-full py-12">
-            <h2 class="text-center sm:text-right text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl max-w-lg">
-              Accepting new patients<br />at Swish Dental
+            <h2 class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl max-w-lg">
+              Accepting new patients
             </h2>
-
-            <div>
-              <a
-                class="block text-nowrap px-5 py-3 mx-auto sm:mx-0 w-fit rounded-full bg-neutral-800 hover:bg-neutral-700 text-sm font-semibold text-white transition ease-in-out animate-fade-up"
-                href="http://www.swishdental.ca/appointment-request"
-              >
-                Book an appointment
-              </a>
-            </div>
           </div>
 
-          <div class="rounded-2xl overflow-hidden">
+          <div class="flex flex-col sm:flex-row gap-8 overflow-hidden">
             <iframe
-              title="Swish Dental"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9463.717495959905!2d-113.5400032!3d53.630399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a024f8dadf3177%3A0x4183313a817de75a!2sSwish%20Dental!5e0!3m2!1sen!2sca!4v1723410636543!5m2!1sen!2sca"
+              class="rounded-2xl"
+              title="South Edmonton"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4748.413453302535!2d-113.494332!3d53.482636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a01f3449e2f771%3A0x8a8862549c7da26!2sTerrace%20Office%20Tower!5e0!3m2!1sen!2sca!4v1738878177617!5m2!1sen!2sca"
+              width="100%"
+              height="300"
+              style="border:0;"
+              allowFullScreen={false}
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            />
+
+            <iframe
+              class="rounded-2xl"
+              title="North Edmonton"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d37918.80026073903!2d-113.492915!3d53.55910600000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a023ac38cd5f7d%3A0x7bd2f12f0ba8d2e8!2s9724%20111%20Ave%20NW%2C%20Edmonton%2C%20AB%20T5G%200B1!5e0!3m2!1sen!2sca!4v1738878406666!5m2!1sen!2sca"
               width="100%"
               height="300"
               style="border:0;"
