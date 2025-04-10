@@ -18,9 +18,7 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
             <h1 class="mt-6 text-2xl tracking-tight font-semibold leading-8 text-gray-900">
               Dr. Kevin Carreon
             </h1>
-            <h2 class="leading-7 text-gray-500">
-              BMSc D.D.S.
-            </h2>
+            <h2 class="leading-7 text-gray-500">BMSc D.D.S.</h2>
           </div>
           <p class="mt-4 leading-7 text-gray-600 animate-fade-up animate-delay-500">
             Dr. Kevin was born and raised in Edmonton, AB. He went on to pursue
@@ -45,8 +43,8 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
           <div class="flex flex-col sm:flex-row gap-8 overflow-hidden">
             <iframe
               class="rounded-2xl"
-              title="South Edmonton"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4748.413453302535!2d-113.494332!3d53.482636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a01f3449e2f771%3A0x8a8862549c7da26!2sTerrace%20Office%20Tower!5e0!3m2!1sen!2sca!4v1738878177617!5m2!1sen!2sca"
+              title="Nebula Dental Clinic"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.3470486828774!2d-113.47759748707998!3d53.4265027721972!)2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a01e9f51b99eeb%3A0x9c207c3c7a7717b!2sNebula%20Dental%20Clinic!5e0!3m2!1sen!2sca!4v1744304814893!5m2!1sen!2sca"
               width="100%"
               height="300"
               style="border:0;"
@@ -54,11 +52,10 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             />
-
             <iframe
               class="rounded-2xl"
-              title="North Edmonton"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d37918.80026073903!2d-113.492915!3d53.55910600000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a023ac38cd5f7d%3A0x7bd2f12f0ba8d2e8!2s9724%20111%20Ave%20NW%2C%20Edmonton%2C%20AB%20T5G%200B1!5e0!3m2!1sen!2sca!4v1738878406666!5m2!1sen!2sca"
+              title="WEM Dental"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371.928809797641!2d-113.63089968707533!3d53.52332827222581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a0205a10000001%3A0x8b5abdb29454c394!2sWEM%20Dental!5e0!3m2!1sen!2sca!4v1744304954372!5m2!1sen!2sca"
               width="100%"
               height="300"
               style="border:0;"
@@ -71,9 +68,7 @@ export default (data: Lume.Data, helpers: Lume.Helpers) => (
       </section>
 
       <section class="max-w-4xl py-24 mx-auto">
-        <h2 class="text-2xl font-semibold leading-8 mb-8">
-          Education
-        </h2>
+        <h2 class="text-2xl font-semibold leading-8 mb-8">Education</h2>
         <div class="flex flex-col sm:flex-row gap-x-24 gap-y-8">
           <img
             class="object-contain object-top"
